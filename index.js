@@ -4,5 +4,5 @@ const currentDayOfTheWeek = dayOfTheWeek[date.getDay()];
 console.log(currentDayOfTheWeek);
 const current = document.querySelector('.day');
 const time = document.querySelector('.time');
-current.innerHTML = 'Day: ' + currentDayOfTheWeek;
-time.innerHTML = 'Time in milliseconds: ' + date.getTime();
+current.innerHTML = 'Current Day of the week: ' + currentDayOfTheWeek;
+time.innerHTML = 'Current UTC time: ' + date.getTime();
