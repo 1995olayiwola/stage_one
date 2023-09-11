@@ -1,8 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+    margin-top: 40px;
     
 }
 img{
@@ -11,6 +19,7 @@ img{
 body{
     background: gainsboro;
 }
-h1,a,span{
+h2,a{
     color:black;
+    margin-top: 20px;
 }
